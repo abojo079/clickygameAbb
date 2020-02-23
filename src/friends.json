@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "wolverine",
+    "image":
+      "https://i.pinimg.com/originals/57/22/0b/57220b475fc982ad296aee6875fbfec6.jpg",
+    "occupation": "mutant",
+    "location": "x mansion"
+  },
+  {
+    "id": 2,
+    "name": "Gene Grey",
+    "image":
+      "https://fr.web.img6.acsta.net/r_1280_720/medias/nmedia/18/35/06/08/1-jeangrey.jpg",
+    "occupation": "mega mutant",
+    "location": "x mansion"
+  },
+  {
+    "id": 3,
+    "name": "cyclops",
+    "image":
+      "https://vignette.wikia.nocookie.net/p__/images/e/e8/Cyclops_x-men_movie.jpg/revision/latest?cb=20150414211112&path-prefix=protagonist",
+    "occupation": "mutant",
+    "location": "x mansion"
+  },
+
+  {
+    "id": 4,
+    "name": "beast",
+    "image":
+      "https://vignette.wikia.nocookie.net/xmenmovies/images/4/49/XMTLS_Beast_Promo_Image.jpeg/revision/latest?cb=20160917235448",
+    "occupation": "mutant",
+    "location": "x mansion"
+  },
+  
+  {
+    "id": 5,
+    "name": "Magneto",
+    "image":
+      "https://media1.popsugar-assets.com/files/thumbor/aOR9nioxa05Q7TR6XdZip4d1580/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/08/24/978/n/1922283/0a8b4a268c9fe824_MCDXMEN_FE131_H/i/Magneto-Ian-McKellen-Edition.JPG",
+    "occupation": "Enemy of Xmen",
+    "location": "unknown"
+  },
+  {
+    "id": 6,
+    "name": "Proffesor X",
+    "image":
+      "https://i.pinimg.com/originals/d5/0a/84/d50a84a2e638aa9224e1b1eca97e1d4c.jpg",
+    "occupation": "Leader of Xmen",
+    "location": "x mansion"
+  },
+  {
+    "id": 7,
+    "name": "Mystique",
+    "image":
+      "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Mystique_%28Rebecca_Romijn%29.jpg/150px-Mystique_%28Rebecca_Romijn%29.jpg",
+    "occupation": "enemy of Xmen",
+    "location": "unknown"
+  },
+  {
+    "id": 8,
+    "name": "rogue",
+    "image":
+      "https://i.pinimg.com/originals/47/a3/76/47a37627d677ccb5ddc6963a64c4ead7.jpg",
+    "occupation": "enemy of Xmen",
+    "location": "unknown"
+  },
+  {
+    "id": 9,
+    "name": "rogue",
+    "image":
+      "https://i.pinimg.com/originals/5d/2e/39/5d2e399aedb98b0df47fdf1965e2766b.jpg",
+    "occupation": "enemy of Xmen",
+    "location": "unknown"
+  },
+
+  {
+    "id": 10,
+    "name": "rogue",
+    "image":
+      "https://vignette.wikia.nocookie.net/xmenmovies/images/8/8a/Sabretooth_01.jpg/revision/latest?cb=20110613064935",
+    "occupation": "enemy of Xmen",
+    "location": "unknown"
+  },
+  {
+    "id": 11,
+    "name": "rogue",
+    "image":
+      "https://static.comicvine.com/uploads/original/11123/111232716/6715777-8466688524-54997.jpg",
+    "occupation": "enemy of Xmen",
+    "location": "unknown"
+  },
+  {
+    "id": 12,
+    "name": "rogue",
+    "image":
+      "https://vignette.wikia.nocookie.net/xmenmovies/images/9/91/XMDOFP_Iceman_Character_Poster.jpg/revision/latest?cb=20160616051456",
+    "occupation": "enemy of Xmen",
+    "location": "unknown"
+  }
+
+
+
+]
