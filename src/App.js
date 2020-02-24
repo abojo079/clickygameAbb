@@ -1,13 +1,16 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import FriendCard from "./components/FriendCard";
 import friends from "./friends.json";
+import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
 
 function App() {
   return (
+    
     <Wrapper>
-      <Title>Friends List</Title>
+<Navbar/>
+<Jumbotron/>
       <FriendCard
         image={friends[0].image}
       />
@@ -46,6 +49,8 @@ function App() {
         image={friends[11].image}
       />
     </Wrapper>
+
+
   );
 }
 
