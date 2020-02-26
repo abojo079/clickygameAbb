@@ -1,15 +1,16 @@
 import React from "react";
 import "./style.css";
 
-function FriendCard(props) {
-  return (
+const FriendCard = (props) => {
+
+    return (
     <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
-     
+      <div className="img-container" onClick={()=>props.counterCheck(props.friend)}>
+      <img alt={props.name} src={props.image} />
     </div>
-  );
+    </div>
+    );
+
 }
 
 export default FriendCard;
