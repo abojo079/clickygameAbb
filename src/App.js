@@ -4,7 +4,7 @@ import Header from './components/header/header'
 import FriendCard from "./components/FriendCard";
 import friends from "./friends.json";
 //import Navbar from "./components/Navbar";
-//import Jumbotron from "./components/Jumbotron";
+import Jumbotron from "./components/Jumbotron";
 
 class App extends Component {
 
@@ -40,7 +40,7 @@ componentDidMount(){
             correctGuess = true;
           }
         }
-        return updatedFriends;
+        return updatedFriend;
       })
       console.log(updatedFriends);
       
@@ -65,13 +65,7 @@ componentDidMount(){
       })
     }
 
-    // newTopScoreAlert = () => {
-    //   if (this.newScore === this.newTopScore) {
-    //     alert("Congratulations! You've reached a new high score!")
-    //   }
-    // }
-
-   
+  
 
     handleIncorrect = (friends) => {
       alert("Game over!")
@@ -84,7 +78,7 @@ componentDidMount(){
     }
 
     resetFriends = (friends) => {
-      const resetFriends = friends.map(character => ({...friends, clicked: false}))
+      const resetFriends = friends.map(friend => ({...friend, clicked: false}))
       return this.shuffleFriends(resetFriends);
     }
 
@@ -95,8 +89,10 @@ componentDidMount(){
         <div>
                <Header score={this.state.score} topScore={this.state.topScore} />
                <div className="container">
+                     <Jumbotron/>
                 <div className="row">
                     {this.state.friends.map((friend) => 
+             
                     <FriendCard  
                     key={friend.id} 
                     id ={friend.id} 
