@@ -14,7 +14,7 @@ This application is a memory game. Users will gain points by not clicking at the
 2. Bootstrap
 3. Heroku
 
+![alt text](/image.png)
 
-!(/image.png)
 
 
